@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+</head>
+<body>
+    <div class="header" id="top">
+        <div class="container">
+         <!-- Makes a nav bar -->  
+            <nav>
+<!-- Logo with hyper link with scroll to top-->
+                <a href="#top">
+                    <img src="assets/logo_01.png" alt="logo" class="logo_white"> </a>
+                <ul>
+                    <li><a href="#roadmap"  class="roadmap-btn">ROADMAP</a></li>
+                    <li><a href="#projects" class="roadmap-btn">PROJECTS</a></li>
+                    <li><a href="#about-me" class="roadmap-btn">ABOUT ME</a></li>
+                    <li><a href="#contact"  class="roadmap-btn">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!--ROADMAP-->
+    <section id="roadmap">
+        <div class="roadmap-container">
+            <h2>Step into the canvas of my world</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>BACHELORS IN MASS MEDIA AND COMMUNICATION</h3>
+                    <span>2020 - 2023</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>GRAPHIC DESIGN INTERNSHIP</h3>
+                    <span>2021 - 2023</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>MOTION GRAPHICS ARTIST</h3>
+                    <span>2022 - 2023</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>MASTERS IN INTERACTIVE DIGITAL MEDIA</h3>
+                    <span>2024 - 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--PROJECTS-->
+<div id="projects">
+    <h1 class="projects">PROJECTS</h1>
+    <!--Box for the videos-->
+    <div class="work-list">
+        <!--Individual videos-->
+        <div class="new">
+            <h3>VIDEO EDITING</h3>
+            <div class="work">
+                <video src="assets/video_editing.mp4" muted> VIDEO EDITING </video>
+            </div>
+            <p>This project serves as a powerful introduction to a 20-minute documentary film, showcasing skilled video editing and 2D graphics to create a compelling visual narrative.</p>
+        </div>
+
+        <div class="new">
+            <h3>2D ANIMATION</h3>
+            <div class="work">
+                <video src="assets/2D_animation.mp4" muted> 2D ANIMATION </video>
+            </div>
+            <p>This project showcases a captivating 2D animation, focusing on distinct bits of animation that bring ideas to life. Through seamless transitions and dynamic visuals, it offers a glimpse into the essentials of 2D motion graphics.</p>
+        </div>
+
+        <div class="new">
+            <h3>MOTION GRAPHICS</h3>
+            <div class="work">
+                <video src="assets/motion_graphics.mp4" muted> MOTION GRAPHICS </video>
+            </div>
+            <p>These reels capture the essence of motion graphics with expressive text animations, seamlessly blending typography and transitions to enhance storytelling.</p>
+        </div>
+    </div>
+    <a href="https://www.behance.net/karinajethwani2" class="btn">SEE MORE</a>
+</div>
+  
+
+  
+  <!--ABOUT ME-->
+  <div id="about-me">
+    <h1 class="section-title" >ABOUT ME</h1>
+    <!--Content-->
+    <div class="about-content">
+        <!--Left side img-->
+        <div class="profile-image">
+            <img src="assets/image_kj_new.png" alt="Profile Picture">
+            
+        </div>
+        <!--Right side div-->
+        <div class="about-text">
+            <h1>HELLO!</h1>
+            <p>As a passionate and versatile graphic designer, I thrive in the intersection of creativity and technology. With a background in Mass Media and Communication, my expertise spans across motion graphics, digital marketing, and interactive media design. My design journey is deeply rooted in storytelling, where each project becomes an opportunity to craft visually compelling narratives that resonate with audiences.</p>
+            <p>Currently, I am pursuing an MSc in Interactive Digital Media at Trinity College Dublin, driven by my desire to create user-centered designs that address real-world challenges. I am proficient in Adobe Creative Suite and enjoy working on branding, social media content creation, and video editing. I believe that design has the power to inform, inspire, and transform, and I am excited to continue exploring this dynamic field.</p>
+            
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/karina-jethwani-1b1966205/" target="_blank">
+                <img src="assets/linkedin_logo.png" alt="LinkedIn" class="social-icon-img">
+            </a>
+            <a href="https://ie.pinterest.com/karinajethwani1/" target="_blank">
+                <img src="assets/pinterest_logo.png" alt="Pinterest" class="social-icon-img">
+            </a>
+            <a href="https://www.instagram.com/karina_jethwani/" target="_blank">
+                <img src="assets/insta_logo.png" alt="Instagram" class="social-icon-img">
+            </a>
+            <a href="https://www.behance.net/karinajethwani2" target="_blank">
+                <img src="assets/behance_logo.png" alt="Behance" class="social-icon-img">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--CONTACT SECTION-->
+<div id="contact">
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="assets/lastpage.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="lastpg-container">
+        <!-- Left Side Content -->
+        <div class="contact-left">
+            <h1 class="sub-title">LET'S COLLABORATE!</h1>
+            <p>karinajethwani1@gmail.com</p>
+            <a href="assets/cv_karina.pdf" class="btn btn2">Download CV</a>
+        </div>
+
+        <!-- Right Side Form -->
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script> 
+
+</body>
+</html>
